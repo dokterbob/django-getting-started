@@ -10,6 +10,9 @@ This is a getting started guide for (experienced) developers who want to practis
    * Emacs
 
 #. Getting started with Python
+
+   * `The Python Tutorial <http://docs.python.org/tutorial/>`_
+
 #. Follow Django tutorials:
 
    * `Tutorial 1 <https://docs.djangoproject.com/en/dev/intro/tutorial01/>`_
