@@ -5,40 +5,42 @@ This is a getting started guide for (experienced) developers who want to practis
 
 #. Get acquinted with a decent text editor:
 
-   * TextMate (Mac)
+   * `TextMate <http://macromates.com/>`_ (Mac)
    * (G)VIM
    * Emacs
 
 #. Getting started with Python
 #. Follow Django tutorials:
 
-   * Tutorial 1
-   * Tutorial 2
-   * Tutorial 3
+   * `Tutorial 1 <https://docs.djangoproject.com/en/dev/intro/tutorial01/>`_
+   * `Tutorial 2 <https://docs.djangoproject.com/en/dev/intro/tutorial02/>`_
+   * `Tutorial 3 <https://docs.djangoproject.com/en/dev/intro/tutorial03/>`_
+   * `Tutorial 4 <https://docs.djangoproject.com/en/dev/intro/tutorial04/>`_
 
 #. Getting started with Distributed Version Control Systems (DCVS):
 
-   * GIT:
+   * `GIT <http://git-scm.com/>`_:
 
-     * GitHub (for Mac)
-     * GitX
+     * `Getting started with GitHub <http://help.github.com/mac-set-up-git/>`_
+     * `GitHub for Mac <http://mac.github.com/>`_
+     * `GitX <https://github.com/brotherbard/gitx/zipball/v0.7.1>`_
      * `git diff`
      * `git checkout`
      * `git push`, `git pull`
      * Branches
      * `git mergetool`
 
-   * Mercurial / Bitbucket
+   * `Mercurial <http://mercurial.selenic.com/>`_ / `Bitbucket <https://bitbucket.org/>`_
 
-#. Getting started with Python packaging tools:
+#. Getting started with Python packaging practises:
 
-   * distribute
-   * PIP
+   * `distribute / PIP <http://guide.python-distribute.org/installation.html>`_
+   * `VirtualEnv <http://guide.python-distribute.org/virtualenv.html>`_
 
 #. Study django-project-base practises and recommended Apps/best practises:
 
-   * django-sentry: Python logging
-   * django-extensions
+   * `Python/Django <https://docs.djangoproject.com/en/dev/topics/logging/>`_ logging and `django-sentry <http://sentry.readthedocs.org/en/latest/index.html>`_
+   * `django-extensions <http://packages.python.org/django-extensions/>`_
 
      * graph_models (Graphviz)
      * shell_plus
@@ -49,25 +51,19 @@ This is a getting started guide for (experienced) developers who want to practis
 
 #. Get acquinted with Python coding best practises:
 
-   * PEP8
+   * `PEP8 <http://www.python.org/dev/peps/pep-0008/>`
 
 #. Study basic (modern) web development:
 
-   * CSS3
-   * HTML5
-   * JS
-
-#. Get acquinted with advanced web development techniques:
-
-   * JavaScript: jQuery
-   * CSS: ...
+   * `HTML5 / CSS3 <http://diveintohtml5.info/>`_
+   * `jQuery / JS <http://docs.jquery.com/Tutorials:Getting_Started_with_jQuery>`_
 
 #. Get acquinted with Python package structure best practises
 
 #. Get acquinted with implementation best-practises:
 
    * django-storages / S3
-   * gunicorn
+   * `gunicorn <http://gunicorn.org/>`_
    * NGinx / Lighttpd
    * Sendgrid
 
