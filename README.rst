@@ -46,8 +46,8 @@ This is a getting started guide for (experienced) developers who want to practis
      * shell_plus
      * runserver_plus (Werkzeug debugger)
 
-   * django-debug-toolbar
-   * staticfiles
+   * `django-debug-toolbar <http://pypi.python.org/pypi/django-debug-toolbar/>`_
+   * `staticfiles <https://docs.djangoproject.com/en/dev/howto/static-files/>`_
 
 #. Get acquinted with Python coding best practises:
 
@@ -62,7 +62,7 @@ This is a getting started guide for (experienced) developers who want to practis
 
 #. Get acquinted with implementation best-practises:
 
-   * django-storages / S3
+   * `django-storages <http://code.welldev.org/django-storages/>`_ / `S3 <http://aws.amazon.com/s3/>`_
    * `gunicorn <http://gunicorn.org/>`_
    * NGinx / Lighttpd
    * Sendgrid
