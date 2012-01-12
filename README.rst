@@ -14,7 +14,7 @@ This is a getting started guide for (experienced) developers who want to practis
    * (Mac only): install `Homebrew <http://mxcl.github.com/homebrew/>`_
    * Install the latest < 3.0 version of `Python <http://www.python.org/download/>`_
 
-#. Getting started with Python
+#. Getting started with Python:
 
    * `The Python Tutorial <http://docs.python.org/tutorial/>`_
 
@@ -73,10 +73,17 @@ This is a getting started guide for (experienced) developers who want to practis
 
 #. Get acquinted with Python package structure best practises
 
+#. Start understanding the how and why of automated testing:
+
+   * `Django unittests <https://docs.djangoproject.com/en/dev/topics/testing/>`_
+   * `Nose <http://pypi.python.org/pypi/nose>`_ and `Django-nose <http://pypi.python.org/pypi/django-nose>`_ for advanced testing features
+
 #. Get acquinted with implementation best-practises:
 
-   * `Amazon CloudFront <http://aws.amazon.com/cloudfront/>`_
-   * `gunicorn <http://gunicorn.org/>`_
-   * `Lighttpd <http://www.lighttpd.net/>`_ / `NGinx <http://www.nginx.org/>`_
-   * `Sendgrid <http://sendgrid.com/>`_
+   * Running a Django server with `gunicorn <http://gunicorn.org/>`_
+   * Front end webhosting `Lighttpd <http://www.lighttpd.net/>`_ / `NGinx <http://www.nginx.org/>`_
+   * Serving static files using `Amazon CloudFront <http://aws.amazon.com/cloudfront/>`_
+
+   * Sending email using `Sendgrid <http://sendgrid.com/>`_
+   * Continuous testing and integration with `Hudson <https://sites.google.com/site/kmmbvnr/home/django-hudson-tutorial>`_
 
