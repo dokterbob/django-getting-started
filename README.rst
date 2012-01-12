@@ -6,12 +6,26 @@ This is a getting started guide for (experienced) developers who want to practis
 #. Get acquinted with a decent text editor:
 
    * `TextMate <http://macromates.com/>`_ (Mac)
-   * (G)VIM
+   * `VIM <http://tips.webdesign10.com/vim-tutorial>`_
    * Emacs
+
+#. Install some basic dependencies:
+
+   * (Mac only): install `Homebrew <http://mxcl.github.com/homebrew/>`_
+   * Install the latest < 3.0 version of `Python <http://www.python.org/download/>`_
 
 #. Getting started with Python
 
    * `The Python Tutorial <http://docs.python.org/tutorial/>`_
+
+#. Getting started with Python packaging practises:
+
+   * `distribute / PIP <http://guide.python-distribute.org/installation.html>`_
+   * `VirtualEnv <http://guide.python-distribute.org/virtualenv.html>`_
+
+#. Checkout the
+
+   * `The Django Book <http://www.djangobook.com/en/2.0/>`_
 
 #. Follow Django tutorials:
 
@@ -35,26 +49,22 @@ This is a getting started guide for (experienced) developers who want to practis
 
    * `Mercurial <http://mercurial.selenic.com/>`_ / `Bitbucket <https://bitbucket.org/>`_
 
-#. Getting started with Python packaging practises:
-
-   * `distribute / PIP <http://guide.python-distribute.org/installation.html>`_
-   * `VirtualEnv <http://guide.python-distribute.org/virtualenv.html>`_
-
-#. Study django-project-base practises and recommended Apps/best practises:
+#. Study `django-project-base <https://github.com/dokterbob/django-project-base>`_ practises and recommended Apps/best practises:
 
    * `Python/Django <https://docs.djangoproject.com/en/dev/topics/logging/>`_ logging and `django-sentry <http://sentry.readthedocs.org/en/latest/index.html>`_
    * `django-extensions <http://packages.python.org/django-extensions/>`_
 
-     * graph_models (Graphviz)
+     * graph_models (`Graphviz <http://www.graphviz.org/>`_)
      * shell_plus
-     * runserver_plus (Werkzeug debugger)
+     * runserver_plus (`Werkzeug debugger <http://werkzeug.pocoo.org/docs/debug/>`_)
 
    * `django-debug-toolbar <http://pypi.python.org/pypi/django-debug-toolbar/>`_
    * `staticfiles <https://docs.djangoproject.com/en/dev/howto/static-files/>`_
+   * `django-tinymce <http://pypi.python.org/pypi/django-tinymce>`_
 
 #. Get acquinted with Python coding best practises:
 
-   * `PEP8 <http://www.python.org/dev/peps/pep-0008/>`
+   * `PEP8 <http://www.python.org/dev/peps/pep-0008/>`_
 
 #. Study basic (modern) web development:
 
@@ -65,8 +75,8 @@ This is a getting started guide for (experienced) developers who want to practis
 
 #. Get acquinted with implementation best-practises:
 
-   * `django-storages <http://code.welldev.org/django-storages/>`_ / `S3 <http://aws.amazon.com/s3/>`_
+   * `Amazon CloudFront <http://aws.amazon.com/cloudfront/>`_
    * `gunicorn <http://gunicorn.org/>`_
-   * NGinx / Lighttpd
-   * Sendgrid
+   * `Lighttpd <http://www.lighttpd.net/>`_ / `NGinx <http://www.nginx.org/>`_
+   * `Sendgrid <http://sendgrid.com/>`_
 
