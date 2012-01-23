@@ -71,7 +71,8 @@ This is a getting started guide for (experienced) developers who want to practis
    * `HTML5 / CSS3 <http://diveintohtml5.info/>`_
    * `jQuery / JS <http://docs.jquery.com/Tutorials:Getting_Started_with_jQuery>`_
 
-#. Get acquinted with Python package structure best practises
+#. Get acquinted with Python package structure best practises:
+   * `The Hitchhiker’s Guide to Packaging <http://guide.python-distribute.org/>`_
 
 #. Start understanding the how and why of automated testing:
 
