@@ -88,4 +88,5 @@ This is a getting started guide for (experienced) developers who want to practis
 
    * Sending email using `Sendgrid <http://sendgrid.com/>`_
    * Continuous testing and integration with `Hudson <https://sites.google.com/site/kmmbvnr/home/django-hudson-tutorial>`_
+   * Deployment and administration automation with `Fabric <http://readthedocs.org/docs/fabric/en/latest/index.html>`_
 
