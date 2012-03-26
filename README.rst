@@ -87,6 +87,6 @@ This is a getting started guide for (experienced) developers who want to practis
    * Serving static files using `Amazon CloudFront <http://aws.amazon.com/cloudfront/>`_
 
    * Sending email using `Sendgrid <http://sendgrid.com/>`_
-   * Continuous testing and integration with `Hudson <https://sites.google.com/site/kmmbvnr/home/django-hudson-tutorial>`_
+   * Continuous testing and integration with `Jenkins <https://sites.google.com/site/kmmbvnr/home/django-jenkins-tutorial>`_
    * Deployment and administration automation with `Fabric <http://readthedocs.org/docs/fabric/en/latest/index.html>`_
 
