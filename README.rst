@@ -18,6 +18,10 @@ This is a getting started guide for (experienced) developers who want to practis
 
    * `The Python Tutorial <http://docs.python.org/tutorial/>`_
 
+#. Getting in debt with Python:
+
+   * `The Hitchhiker’s Guide to Python! <http://docs.python-guide.org/en/latest/index.html>`_ (DON'T PANIC!)
+  
 #. Getting started with Python packaging practises:
 
    * `distribute / PIP <http://guide.python-distribute.org/installation.html>`_
