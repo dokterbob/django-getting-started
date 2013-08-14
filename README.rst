@@ -3,9 +3,11 @@ Getting started with Python/Django
 
 This is a getting started guide for (experienced) non-Python developers who want to practise Django on a professional level. It basically is an overview of basic resources for acquiring the relevant skills.
 
-#. Get acquinted with a decent text editor:
+#. Get acquinted with a decent text editor (recommended) or consider the very
+   decent (but sluggish and slow) `PyCharm <https://www.jetbrains.com/pycharm/>`_
+   IDE (or one of it's `alternatives <http://wiki.python.org/moin/IntegratedDevelopmentEnvironments>`_:
 
-   * `Sublime Text <http://www.sublimetext.com/>`_
+   * `Sublime Text <http://www.sublimetext.com/>`_ (recommended)
    * `VIM <http://tips.webdesign10.com/vim-tutorial>`_
    * `Emacs <http://www.linuxjournal.com/article/6242>`_
 
@@ -26,6 +28,14 @@ This is a getting started guide for (experienced) non-Python developers who want
     "translate_tabs_to_spaces": true,
     "rulers": [78],
     "ensure_newline_at_eof_on_save": true
+
+#. Make sure your text editor has a Python `linter <https://en.wikipedia.org/wiki/Lint_(software)>`_
+   installed to prevent common syntax errors.
+
+   With Sublime Text, install the `Package Control <https://sublime.wbond.net/>`_
+   package manager and install `SublimeLinter <https://github.com/SublimeLinter/SublimeLinter>`_.
+
+   For PyCharm a linter (as well as a DCVS client) is included with the IDE.
 
 #. Install Python by following the excellent installation instructions from
    `The Hitchhiker’s Guide to Python! <http://docs.python-guide.org/en/latest/index.html>`_ (DON'T PANIC!).
