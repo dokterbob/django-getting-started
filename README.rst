@@ -5,70 +5,65 @@ This is a getting started guide for (experienced) developers who want to practis
 
 #. Get acquinted with a decent text editor:
 
-   * `TextMate <http://macromates.com/>`_ (Mac)
+   * `Sublime Text <http://www.sublimetext.com/>`_
    * `VIM <http://tips.webdesign10.com/vim-tutorial>`_
-   * Emacs
+   * `Emacs <http://www.linuxjournal.com/article/6242>`_
 
-#. Install some basic dependencies:
+#. Make sure your editor is configured to behave nicely with regards to
+   indentation and whitespace, for Python and modern DCVS this *is* important:
 
-   * (Mac only): install `Homebrew <http://mxcl.github.com/homebrew/>`_
-   * Install the latest < 3.0 version of `Python <http://www.python.org/download/>`_
+   - PEP8 related:
+      * Use 4 `spaces for indentation <http://www.python.org/dev/peps/pep-0008/#tabs-or-spaces>`_ (not tabs).
+      * Make sure your editor forces a `limited line length <http://www.python.org/dev/peps/pep-0008/#maximum-line-length>`_ of 79 characters.
 
-#. Getting started with Python:
+   - DCVS related:
+      * Automatically remove trailing whitespace in order to work well with DCVS.
+      * Assure there is a newline at the end of each file.
 
-   * `The Python Tutorial <http://docs.python.org/tutorial/>`_
+   For Sublime Text these settings amount to the following configuration lines::
 
-#. Getting in depth with Python:
+    "trim_trailing_white_space_on_save": true,
+    "translate_tabs_to_spaces": true,
+    "rulers": [78],
+    "ensure_newline_at_eof_on_save": true
 
-   * `The Hitchhiker’s Guide to Python! <http://docs.python-guide.org/en/latest/index.html>`_ (DON'T PANIC!)
-  
-#. Getting started with Python packaging practises:
+#. Install Python by following the excellent installation instructions from
+   `The Hitchhiker’s Guide to Python! <http://docs.python-guide.org/en/latest/index.html>`_ (DON'T PANIC!).
 
-   * `distribute / PIP <http://guide.python-distribute.org/installation.html>`_
-   * `VirtualEnv <http://guide.python-distribute.org/virtualenv.html>`_
+#. For learning Python, once again, `The Hitchhiker’s Guide <http://docs.python-guide.org/en/latest/intro/learning/>`_
+   is the way to go. Also, we can recommend having O'Reilly's
+   `Python Pocket Reference <http://search.oreilly.com/?q=Python+Pocket+Reference>`_
+   at hand during initial steps of Python programming.
 
-#. Checkout the
-
-   * `The Django Book <http://www.djangobook.com/en/2.0/>`_
-
-#. Follow Django tutorials:
-
-   * `Tutorial 1 <https://docs.djangoproject.com/en/dev/intro/tutorial01/>`_
-   * `Tutorial 2 <https://docs.djangoproject.com/en/dev/intro/tutorial02/>`_
-   * `Tutorial 3 <https://docs.djangoproject.com/en/dev/intro/tutorial03/>`_
-   * `Tutorial 4 <https://docs.djangoproject.com/en/dev/intro/tutorial04/>`_
+#. Read the excellent `Getting Started <https://docs.djangoproject.com/en/dev/intro/>`_ manual
+   supplied with the Django documentation. and make sure to work through all of the
+   parts of the 'Writing your first Django app'.
 
 #. Getting started with Distributed Version Control Systems (DCVS):
 
-   * `GIT <http://git-scm.com/>`_:
-
-     * `Getting started with GitHub <http://help.github.com/mac-set-up-git/>`_
-     * `GitHub for Mac <http://mac.github.com/>`_
-     * `GitX <https://github.com/brotherbard/gitx/zipball/v0.7.1>`_
-     * `git diff`
-     * `git checkout`
-     * `git push`, `git pull`
-     * Branches
-     * `git mergetool`
+   * `GIT <http://git-scm.com/>`_ and `GitHub <https://www.github.com/>`_:
+       - Mac
+           * `Getting started with GitHub on Mac <http://help.github.com/mac-set-up-git/>`_
+           * `GitHub for Mac <http://mac.github.com/>`_ for beginners
+           * `GitX <https://github.com/brotherbard/gitx/zipball/v0.7.1>`_, `Tower <http://www.git-tower.com/>`_ or `SourceTree <http://www.sourcetreeapp.com/>`_ for advanced users
+       - Windows
+           * `Getting started with GitHub on Windows <https://help.github.com/articles/getting-started-with-github-for-windows>`_
+           * `GitHub for Windows <http://windows.github.com/>`_ for beginners
+           * `SourceTree <http://www.sourcetreeapp.com/>`_ for advanced users
+       - Command line tools
+           * `git diff`
+           * `git checkout`
+           * `git push`, `git pull`
+           * `Branching and merging <http://gitref.org/branching/>`_
+           * `git mergetool`
 
    * `Mercurial <http://mercurial.selenic.com/>`_ / `Bitbucket <https://bitbucket.org/>`_
 
-#. Study `django-project-base <https://github.com/dokterbob/django-project-base>`_ practises and recommended Apps/best practises:
+#. Now you are ready to study Django and Python's best practises, many of which
+   have been documented in Daniel Greenfeld and Audrey Roy's awesome book
+   `Two Scoops of Django <https://django.2scoops.org/>`_.
 
-   * `Python/Django <https://docs.djangoproject.com/en/dev/topics/logging/>`_ logging and `django-sentry <http://sentry.readthedocs.org/en/latest/index.html>`_
-   * `django-extensions <http://packages.python.org/django-extensions/>`_
-
-     * graph_models (`Graphviz <http://www.graphviz.org/>`_)
-     * shell_plus
-     * runserver_plus (`Werkzeug debugger <http://werkzeug.pocoo.org/docs/debug/>`_)
-
-   * `django-debug-toolbar <http://pypi.python.org/pypi/django-debug-toolbar/>`_
-   * `staticfiles <https://docs.djangoproject.com/en/dev/howto/static-files/>`_
-   * `django-tinymce <http://pypi.python.org/pypi/django-tinymce>`_
-
-#. Get acquinted with Python coding best practises:
-
-   * `PEP8 <http://www.python.org/dev/peps/pep-0008/>`_
+   Buy this book. Take it with you wherever you go.
 
 #. Study basic (modern) web development:
 
@@ -79,12 +74,7 @@ This is a getting started guide for (experienced) developers who want to practis
 
    * `The Hitchhiker’s Guide to Packaging <http://guide.python-distribute.org/>`_
 
-#. Start understanding the how and why of automated testing:
-
-   * `Django unittests <https://docs.djangoproject.com/en/dev/topics/testing/>`_
-   * `Nose <http://pypi.python.org/pypi/nose>`_ and `Django-nose <http://pypi.python.org/pypi/django-nose>`_ for advanced testing features
-
-#. Get acquinted with implementation best-practises:
+#. Get acquinted with deployment practises for production environments:
 
    * Running a Django server with `gunicorn <http://gunicorn.org/>`_
    * Front end webhosting `Lighttpd <http://www.lighttpd.net/>`_ / `NGinx <http://www.nginx.org/>`_
@@ -93,4 +83,3 @@ This is a getting started guide for (experienced) developers who want to practis
    * Sending email using `Sendgrid <http://sendgrid.com/>`_
    * Continuous testing and integration with `Jenkins <https://sites.google.com/site/kmmbvnr/home/django-jenkins-tutorial>`_
    * Deployment and administration automation with `Fabric <http://readthedocs.org/docs/fabric/en/latest/index.html>`_
-
