@@ -17,8 +17,8 @@ This is a getting started guide for (experienced) non-Python developers who want
       * Make sure your editor forces a `limited line length <http://www.python.org/dev/peps/pep-0008/#maximum-line-length>`_ of 79 characters.
 
    - DCVS related
-      * Automatically remove trailing whitespace in order to work well with DCVS.
-      * Assure there is a newline at the end of each file.
+      * Automatically `remove trailing whitespace <http://codeimpossible.com/2012/04/02/Trailing-whitespace-is-evil-Don-t-commit-evil-into-your-repo-/>`_ in order to work well with DCVS.
+      * Assure there is a `newline at the end of each file <http://unix.stackexchange.com/questions/18743/whats-the-point-in-adding-a-new-line-to-the-end-of-a-file>`_.
 
    For Sublime Text these settings amount to the following configuration lines::
 
