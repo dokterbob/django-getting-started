@@ -5,7 +5,7 @@ This is a getting started guide for (experienced) non-Python developers who want
 
 #. Get acquinted with a decent text editor (recommended) or consider the very
    decent (but sluggish and slow) `PyCharm <https://www.jetbrains.com/pycharm/>`_
-   IDE (or one of it's `alternatives <http://wiki.python.org/moin/IntegratedDevelopmentEnvironments>`_:
+   IDE (or one of it's `alternatives <http://wiki.python.org/moin/IntegratedDevelopmentEnvironments>`_):
 
    * `Sublime Text <http://www.sublimetext.com/>`_ (recommended)
    * `VIM <http://tips.webdesign10.com/vim-tutorial>`_
@@ -90,6 +90,8 @@ This is a getting started guide for (experienced) non-Python developers who want
    * Running a Django server with `gunicorn <http://gunicorn.org/>`_
    * Front end webhosting `Lighttpd <http://www.lighttpd.net/>`_ / `NGinx <http://www.nginx.org/>`_
    * Serving static files using `Amazon CloudFront <http://aws.amazon.com/cloudfront/>`_
+   * Use Postgres instead of MySQL
+   * Seting up `memcached caching <https://docs.djangoproject.com/en/dev/topics/cache/#memcached>`_
 
    * Sending email using `Sendgrid <http://sendgrid.com/>`_
    * Continuous testing and integration with `Jenkins <https://sites.google.com/site/kmmbvnr/home/django-jenkins-tutorial>`_
