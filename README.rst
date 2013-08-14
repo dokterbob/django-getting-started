@@ -12,11 +12,11 @@ This is a getting started guide for (experienced) developers who want to practis
 #. Make sure your editor is configured to behave nicely with regards to
    indentation and whitespace, for Python and modern DCVS this *is* important:
 
-   - PEP8 related:
+   - PEP8 related
       * Use 4 `spaces for indentation <http://www.python.org/dev/peps/pep-0008/#tabs-or-spaces>`_ (not tabs).
       * Make sure your editor forces a `limited line length <http://www.python.org/dev/peps/pep-0008/#maximum-line-length>`_ of 79 characters.
 
-   - DCVS related:
+   - DCVS related
       * Automatically remove trailing whitespace in order to work well with DCVS.
       * Assure there is a newline at the end of each file.
 
@@ -41,7 +41,7 @@ This is a getting started guide for (experienced) developers who want to practis
 
 #. Getting started with Distributed Version Control Systems (DCVS):
 
-   * `GIT <http://git-scm.com/>`_ and `GitHub <https://www.github.com/>`_:
+   * `GIT <http://git-scm.com/>`_ and `GitHub <https://www.github.com/>`_
        - Mac
            * `Getting started with GitHub on Mac <http://help.github.com/mac-set-up-git/>`_
            * `GitHub for Mac <http://mac.github.com/>`_ for beginners
@@ -63,7 +63,8 @@ This is a getting started guide for (experienced) developers who want to practis
    have been documented in Daniel Greenfeld and Audrey Roy's awesome book
    `Two Scoops of Django <https://django.2scoops.org/>`_.
 
-   Buy this book. Take it with you wherever you go.
+   Buy this book. Take it with you wherever you go. Leave it under your pillow
+   as you sleep.
 
 #. Study basic (modern) web development:
 
