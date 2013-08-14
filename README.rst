@@ -1,7 +1,7 @@
-Getting started with Django
-===========================
+Getting started with Python/Django
+==================================
 
-This is a getting started guide for (experienced) developers who want to practise Django on a professional level. It basically is an overview of basic resources for acquiring the relevant skills.
+This is a getting started guide for (experienced) non-Python developers who want to practise Django on a professional level. It basically is an overview of basic resources for acquiring the relevant skills.
 
 #. Get acquinted with a decent text editor:
 
